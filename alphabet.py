@@ -1,4 +1,4 @@
-def alph():
+def alph():'''Add more characters of your desire, each character is in a 7x7 square(except space) and with 2 additional spaces'''
 	let_dic = {"A":["*******  ",
 					"*     *  ",
 					"*     *  ",
