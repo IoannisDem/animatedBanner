@@ -1,15 +1,14 @@
 import time
 import os
-import alphabet
-DISPLAY = 50
+import alphabet#library which i create
+DISPLAY = 50#size of display used by program
 list_word = []
-list_word = alphabet.alph()
+list_word = alphabet.alph()#each element of the list consist of a row of all the letters 
 max = 0
 for i in list_word:
 	if len(i) > max:
 		max = len(i)
-far = DISPLAY
-print(max)
+far = DISPLAY#defines how far the banner is 
 while True:
 	if DISPLAY + far >= DISPLAY:
 		varA = 0
